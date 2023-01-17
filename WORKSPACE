@@ -1,6 +1,6 @@
 load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 git_repository(
-    name = "external",
+    name = "lib",
     remote = "https://github.com/dmitrii-ubskii/rules-rust-mre-external",
     commit = "f75b1d025fe57bccfb7f3710403f9b1d82910654",
 )
